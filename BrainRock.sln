@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainRock.Lib", "BrainRock.Lib\BrainRock.Lib.csproj", "{4A72B5FB-9D45-4D57-A342-A2FA832506A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainRock.Com", "BrainRock.Com\BrainRock.Com.csproj", "{3B44D8B6-1E77-4CFA-AE4C-0F3BB2415C30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainRock.Tests", "BrainRock.Tests\BrainRock.Tests.csproj", "{6B8B279E-85AC-4D8E-95B2-458D52BEB1C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainRock.App", "BrainRock.App\BrainRock.App.csproj", "{6E134BBA-40CA-46E7-B42F-A2019EBBE824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainRock.Service", "BrainRock.Service\BrainRock.Service.csproj", "{B1592B99-8EF9-463F-8D6A-9E9CC60417C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{4E5831B4-C886-4F70-B89E-153075627178}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A72B5FB-9D45-4D57-A342-A2FA832506A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A72B5FB-9D45-4D57-A342-A2FA832506A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A72B5FB-9D45-4D57-A342-A2FA832506A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A72B5FB-9D45-4D57-A342-A2FA832506A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B44D8B6-1E77-4CFA-AE4C-0F3BB2415C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B44D8B6-1E77-4CFA-AE4C-0F3BB2415C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B44D8B6-1E77-4CFA-AE4C-0F3BB2415C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B44D8B6-1E77-4CFA-AE4C-0F3BB2415C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8B279E-85AC-4D8E-95B2-458D52BEB1C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8B279E-85AC-4D8E-95B2-458D52BEB1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8B279E-85AC-4D8E-95B2-458D52BEB1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8B279E-85AC-4D8E-95B2-458D52BEB1C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E134BBA-40CA-46E7-B42F-A2019EBBE824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E134BBA-40CA-46E7-B42F-A2019EBBE824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E134BBA-40CA-46E7-B42F-A2019EBBE824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E134BBA-40CA-46E7-B42F-A2019EBBE824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1592B99-8EF9-463F-8D6A-9E9CC60417C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1592B99-8EF9-463F-8D6A-9E9CC60417C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1592B99-8EF9-463F-8D6A-9E9CC60417C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1592B99-8EF9-463F-8D6A-9E9CC60417C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DCE1664-7026-4512-8CAB-F71B4590AF41}
+	EndGlobalSection
+EndGlobal

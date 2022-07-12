@@ -1,0 +1,30 @@
+﻿<Window x:Class="BrainRock.App.Modules.Api.ApiWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:api="clr-namespace:BrainRock.App.Modules.Api"
+        mc:Ignorable="d"
+        Title="ApiWindow" Height="450" Width="800"
+        d:DataContext="{d:DesignInstance api:ApiViewModel}"
+        WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <ComboBox Margin="15"
+                      Width="150"
+                      ItemsSource="{Binding ApiNames}"
+                      SelectedItem="{Binding SelectedApi}" />
+            <Button Margin="15"
+                    Content="Execute"
+                    Command="{Binding ExecuteCommand}" />
+        </StackPanel>
+        <TextBlock Margin="15"
+                   Grid.Row="1"
+                   TextWrapping="Wrap"
+                   Text="{Binding Response}" />
+    </Grid>
+</Window>
